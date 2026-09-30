@@ -6,8 +6,4 @@ app.use(express.json());
 
 app.use("/api/v1", authRoutes);
 
-app.get("/", (req, res) => {
-  res.send("Bizflow API is running!");
-});
-
 export default app;
